@@ -12,6 +12,6 @@ without attributed normalization
 
 ![w/o](/img/before.png =250x)
 
-<img src="/img/before.png" width="200">
+<img src="/img/before.png" width="60%">
 
 ![w/o](/img/before.png)
