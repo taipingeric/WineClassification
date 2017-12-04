@@ -6,7 +6,7 @@ import numpy
 class Perceptron(object):
     '''
     iteration_limit: int
-    eta: float: learning rate [0:1]
+    eta: learning rate float [0:1] 
     '''
     
     def __init__(self, eta = 0.01, iteration=10):
@@ -21,8 +21,8 @@ class Perceptron(object):
             errors = 0
             for xi, target in zip(X, y):
                 update = self.eta * (target - self.predict(xi))
-                self.weight[1:] += update * xi
                 self.weight[0] += update
+                self.weight[1:] += update * xi
                 errors += int(update != 0.0)
             self.errors_list.append(errors)
         return self
