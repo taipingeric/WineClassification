@@ -8,6 +8,12 @@ Number of Attributes: 13
 
 Number of Instances: 177
 
+### Perceptron
+
+eta = 0.1
+
+iteration = 20
+
 ## result:
 
 **without** attributed normalization
