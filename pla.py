@@ -59,6 +59,7 @@ X = data.iloc[:, 1:].values
 
 perceptron = Perceptron(eta = 0.1, iteration=20)
 perceptron.training(X, y)
-plot.plot(range(0, len(perceptron.errors_list)), perceptron.errors_list, marker='.')
 print(perceptron.weight)
+
+plot.plot(range(0, len(perceptron.errors_list)), perceptron.errors_list, marker='.')
 plot.show()
