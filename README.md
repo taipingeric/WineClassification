@@ -17,7 +17,6 @@ iteration = 20
 ## Result
 
 training errors: **without** attributed normalization
-
 <img src="/img/before.png" width="60%">
 
 training errors: **with** normalization
