@@ -62,4 +62,7 @@ perceptron.training(X, y)
 print(perceptron.weight)
 
 plot.plot(range(0, len(perceptron.errors_list)), perceptron.errors_list, marker='.')
+plot.ylabel('errors count')
+plot.xlabel('epochs')
+plot.title('w/ normolization')
 plot.show()
