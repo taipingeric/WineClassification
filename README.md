@@ -9,4 +9,7 @@ Number of Instances: 177
 result:
 
 without attributed normalization
+
+![w/o](/img/before.png =250x)
+
 ![w/o](/img/before.png)
