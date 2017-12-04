@@ -14,13 +14,13 @@ eta = 0.1
 
 iteration = 20
 
-## result:
+## Result
 
-**without** attributed normalization
+training errors: **without** attributed normalization
 
 <img src="/img/before.png" width="60%">
 
-**with** normalization
+training errors: **with** normalization
 
 <img src="/img/after.png" width="60%">
 
