@@ -8,10 +8,10 @@ Number of Instances: 177
 
 result:
 
-without attributed normalization
-
-![w/o](/img/before.png =250x)
+**without** attributed normalization
 
 <img src="/img/before.png" width="60%">
 
-![w/o](/img/before.png)
+**with** normalization
+
+<img src="/img/after.png" width="60%">
